@@ -211,8 +211,8 @@ export default {
       this.showNextLevelButton = true;
       this.maxTime -= 30;
       this.totalWins++;
-      if (this.totalWins === 1) {
-        alert("Congratulations! You've won 4 times!");
+      if (this.totalWins === 5) {
+        alert("Congratulations! You've won 5 times!");
         this.totalWins = 0;
         this.shuffleCard();
         this.maxTime = 200;
