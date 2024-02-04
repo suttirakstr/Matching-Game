@@ -45,7 +45,7 @@ margin-left: 80px;
   backface-visibility: hidden;
   transition: transform 0.40s linear;
   border-radius: 30px;
-  box-shadow: 0 10px 30px rgba(48, 64, 156, 0.94);
+  box-shadow: 0 10px 30px rgba(50, 52, 63, 0.94);
 }
 .card .front-view img {
   max-width: 100%;
@@ -55,7 +55,7 @@ margin-left: 80px;
   width: 100%;
   background-color: #000000;
   border-radius: 30px;
-  box-shadow: 0 10px 30px rgba(48, 64, 156, 0.94);
+  box-shadow: 0 10px 30px rgba(46, 46, 44, 0.94);
 }
 .card .back-view {
 
@@ -76,13 +76,10 @@ margin-left: 80px;
 .card.flip .back-view{
   transform: rotateY(0);
 }
-
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 p{
   font-size: 20px;
@@ -103,9 +100,6 @@ h1.title {
   25%  {color: rgb(247, 247, 193);}
   50%  {color: rgb(240, 234, 210);}
   100% {color: rgb(241, 241, 238);}
- 
-
-
 }
 body{
   display: flex;
@@ -113,7 +107,6 @@ body{
   justify-content: center;
   min-height: 90vh;
   background: #000000;
-  
 }
 .details{
   width: 100%;
@@ -135,7 +128,6 @@ body{
 .details p span{
   margin-left: 2px;
 }
-
 .details button{
   cursor: pointer;
   font-size: 20px;
@@ -150,16 +142,36 @@ body{
   color: #fff;
   background: #a0a1d1;
 }
+.timeout{
+  text-align: center;
+}
+.start{
+  display: flex;
+  justify-content: center;
+
+}
+.btn-start {
+  font-size: 38px;
+  padding: 10px;
+  font-weight: bold;
+  color: #000000;
+  border: 5px solid #050505;
+  box-shadow: 0 10px 20px rgba(14, 13, 8, 0.845);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
 @media screen and (max-width: 700px) {
   .cards{
-    height: 350px;
-    width: 350px;
+    height: 500px;
+    width: 500px;
   }
   .card .front-view img{
-    max-width: 16px;
+    max-width: 80px;
   }
   .card .back-view img{
-    max-width: 40px;
+    max-width: 80px;
   }
 }
 @media screen and (max-width: 530px) {

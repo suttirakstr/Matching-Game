@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/W.vue'
+import HomeView from '../views/Matching.vue'
+
 
 const routes = [
   {
@@ -7,6 +8,7 @@ const routes = [
     name: 'home',
     component: HomeView
   },
+
 
 ]
 

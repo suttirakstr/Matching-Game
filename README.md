@@ -14,6 +14,9 @@ npm run serve
 ```
 npm run build
 ```
+### Node version
+16.14.0
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
